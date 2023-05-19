@@ -1,0 +1,39 @@
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: scroll;
+
+
+.movies__type {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  height: 100% !important;
+  .movies{
+    display: flex;
+    flex-direction: column;
+
+    ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+      flex: 1;
+      li{
+        list-style: none;
+
+      }
+    }
+
+
+  }
+
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+}
