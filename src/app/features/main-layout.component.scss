@@ -5,12 +5,12 @@
 
   .content{
    height: 100%;
-    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .footer{
-    position: fixed;
-    bottom: 0;
     width: 100%;
   }
 }
